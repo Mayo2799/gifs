@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(240, 128, 128, 0.671);
+}
+.gif-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ListaGifs-card {
+  align-content: center;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.ListaGifs-card p {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px;
+  max-inline-size: fit-content;
+}
+
+.ListaGifs-card img {
+  max-height: 170px;
+}
